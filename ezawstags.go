@@ -48,7 +48,7 @@ func main() {
 
 func syntax() string {
 	if len(os.Args) != 4 {
-		fmt.Printf("-%v: ERR\n-%v account_role instanceid Key:Name\n- You can specifiy as many Key:Name combos as you wish.\n- Remeber the REQUIRED ones are:\n- Name Owner Env Service Product Portfolio ", os.Args[0], os.Args[0])
+		fmt.Printf("- %v: ERR\n- %v account_role instanceid Key:Name\n- You can specifiy as many Key:Name combos as you wish.\n", os.Args[0], os.Args[0])
 		os.Exit(1)
 	}
 	return "Die"
