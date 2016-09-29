@@ -1,7 +1,5 @@
 # ezawstags
 
-* The file taggerator above is a darwin binary, download, chmod +x, and run. *
-
 ```
 taggerator account_role instanceid key:name key:name [...]
 ```
@@ -10,6 +8,6 @@ You can specify however many key:name pairs as you want.  If you use an existing
 
 account_role = name of the account_role in your ~/.aws/credentials
 
-instanceid = the actual instanceid of the resource e.g. i-6359af75
+instanceid = the actual instanceid of the resource e.g. i-6js79f75
 
 key:name e.g.  bob:uncle ted:"koppel is a waffle" blah:bleh
